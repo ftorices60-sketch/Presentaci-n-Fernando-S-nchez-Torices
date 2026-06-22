@@ -1725,5 +1725,15 @@ container.addEventListener('scroll', () => {
   }
 });
 </script>
+   
+ <script>
+document.addEventListener("click", () => {
+  document.documentElement.requestFullscreen().catch(()=>{});
+},{ once: true });
+</script>
+
+
+</body>
+</html>
 </body>
 </html>
